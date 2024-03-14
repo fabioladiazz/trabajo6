@@ -20,7 +20,7 @@ async def predict(
     eccentricity: float,
     convexarea: float,
     extent: float,
-    perimeter: float  # Corrected typo here
+    perimeter: float
 ):
     dictionary = {
         'Area': area,
